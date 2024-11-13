@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viet Soul - Vietnamese Restaurant Menu</title>
+    <meta name="theme-color" content="#ebe1d2" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <!-- Styling -->
+    <link rel="stylesheet" href="vendors/bootstrap-5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <img id="cover-image" src="" alt="cover image" loading="lazy" onError="this.onerror=null;this.src='/img/cover-placeholder.jpg';" />
+    </header>
+    <header class="bg-section-secondary">
+      <div class="container">
+        <div class="d-flex flex-row justify-content-between align-items-start pb-3">
+          <img id="logo" class="img-fluid rounded" src="" alt="" width="120" height="120" onError="this.onerror=null;this.src='/img/logo-placeholder.png';" />
+          <div class="d-flex py-2 gap-2">
+            <div class="dropdown">
+              <button class="btn btn-outline-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false">Socials</button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="https://www.instagram.com/vietsoulrestaurant/" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_166_43)">
+                        <path d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21Z" stroke="black" stroke-width="2" stroke-miterlimit="10" />
+                        <path d="M22 4H10C6.68629 4 4 6.68629 4 10V22C4 25.3137 6.68629 28 10 28H22C25.3137 28 28 25.3137 28 22V10C28 6.68629 25.3137 4 22 4Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M22.5 11C23.3284 11 24 10.3284 24 9.5C24 8.67157 23.3284 8 22.5 8C21.6716 8 21 8.67157 21 9.5C21 10.3284 21.6716 11 22.5 11Z" fill="black" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_166_43">
+                          <rect width="32" height="32" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                    Instagram</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://www.tiktok.com/@vietsoulmanchester" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_166_48)">
+                        <path
+                          d="M21 12.75C23.0387 14.2174 25.4881 15.0047 28 15V10C26.1435 10 24.363 9.2625 23.0503 7.94975C21.7375 6.63699 21 4.85652 21 3H16V19.5C15.9997 20.1263 15.8314 20.741 15.5126 21.2801C15.1938 21.8192 14.7362 22.2629 14.1875 22.5648C13.6389 22.8668 13.0192 23.016 12.3932 22.9969C11.7672 22.9778 11.1578 22.7911 10.6285 22.4562C10.0993 22.1213 9.66962 21.6505 9.3843 21.093C9.09898 20.5355 8.96849 19.9116 9.00643 19.2865C9.04437 18.6613 9.24936 18.0578 9.60002 17.5389C9.95067 17.02 10.4341 16.6047 11 16.3363V11C7.02125 11.7088 4 15.3175 4 19.5C4 21.7543 4.89553 23.9163 6.48959 25.5104C8.08365 27.1045 10.2457 28 12.5 28C14.7543 28 16.9163 27.1045 18.5104 25.5104C20.1045 23.9163 21 21.7543 21 19.5V12.75Z"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_166_48">
+                          <rect width="32" height="32" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+
+                    TikTok</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a href="https://maps.app.goo.gl/cK3bh2zwzvcrWyuC6" class="btn btn-primary" target="_blank"> Visit Us</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="bg-section-secondary">
+      <div class="container">
+        <div id="venue-details">
+          <h2 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h2>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-6"></span>
+          </p>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-3"></span>
+            <span class="placeholder col-3"></span>
+            <span class="placeholder col-3"></span>
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <nav class="bg-section-secondary sticky-top border-top border-secondary-subtle">
+      <div class="container">
+        <ul id="menu-nav" class="nav nav-underline flex-row flex-nowrap overflow-scroll gap-4"></ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <section id="menu_wrapper" class="mb-5"></section>
+    </div>
+
+    <footer class="bg-section-secondary py-3">
+      <div class="container text-center">
+        <p class="text-accent text-xsmall m-0">Made with love by <a href="https://orderly.cc" target="_blank">Orderly</a></p>
+      </div>
+    </footer>
+
+    <!-- Item Modal -->
+    <div class="modal fade" id="itemModal" tabindex="-1" aria-labelledby="itemModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <img id="modalFoodImage" class="img-fluid" src="" alt="" />
+            <button type="button" class="btn position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Close">
+              <img src="/img/icons/close.svg" alt="" width="24" height="24" />
+            </button>
+          </div>
+          <div class="modal-body">
+            <p id="modalFoodTitle" class="food-title mb-1">Food title</p>
+            <p id="modalFoodPrice" class="menu-price mb-1">${item.price}</p>
+            <p id="modalFoodDescription" class="food-details">${item.description}</p>
+            <hr />
+            <p class="text-muted small">Questions about allergens, ingredients or cooking methods? Please contact the restaurant</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="vendors/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

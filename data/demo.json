@@ -1,0 +1,465 @@
+{
+  "info": [
+    {
+      "name": "Demo Store",
+      "description": "Demo store is a vibrant and trendy burger joint serving gourmet burgers, chicken sandwiches, creamy shakes, and more. Using fresh, locally sourced ingredients, we aim to create a satisfying and flavorful experience with every bite.",
+      "location": "123 Burger Lane, Austin, TX 78701",
+      "locationLink": "https://goo.gl/maps/example",
+      "website": "https://stackednsizzling.com",
+      "phone": "(512) 555-1234",
+      "coverImage": "burger-cover.jpg",
+      "logoImage": "logo-burger.png"
+    }
+  ],
+  "menu": [
+    {
+      "category": "Burgers",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M40 39.9999L49.0107 30.9893C49.536 30.4641 50.1596 30.0475 50.846 29.7634C51.5323 29.4793 52.2679 29.3331 53.0107 29.3333H53.3333C54.7478 29.3333 56.1044 29.8952 57.1046 30.8954C58.1048 31.8955 58.6667 33.2521 58.6667 34.6666C58.6667 36.0811 58.1048 37.4376 57.1046 38.4378C56.1044 39.438 54.7478 39.9999 53.3333 39.9999H10.6667C9.25219 39.9999 7.89563 39.438 6.89544 38.4378C5.89525 37.4376 5.33334 36.0811 5.33334 34.6666C5.33334 33.2521 5.89525 31.8955 6.89544 30.8954C7.89563 29.8952 9.25219 29.3333 10.6667 29.3333H22.7067C26.9494 29.3335 31.0184 31.0188 34.0187 34.0186L40 39.9999ZM8.00001 39.9999H56V45.3333C56 47.455 55.1572 49.4898 53.6569 50.9901C52.1566 52.4904 50.1217 53.3333 48 53.3333H16C13.8783 53.3333 11.8434 52.4904 10.3432 50.9901C8.84286 49.4898 8.00001 47.455 8.00001 45.3333V39.9999Z' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><path d='M40.0027 18.6667H40M32.0027 21.3334H32M32 10.6667C19.672 10.6667 9.51468 15.3494 8.15468 26.6667C7.97868 28.1334 9.19468 29.3334 10.6667 29.3334H53.3334C54.8054 29.3334 56.0213 28.1334 55.8453 26.6667C54.4853 15.3494 44.328 10.6667 32 10.6667Z' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Our mouth-watering signature beef burgers, flame-grilled to perfection, served with house-made sauces and toppings.",
+      "items": [
+        {
+          "image": true,
+          "imageUrl": "01.webp",
+          "name": "Classic Stack",
+          "description": "A juicy beef patty with lettuce, tomato, onion, cheddar cheese, and our signature sauce.",
+          "calories": "1245 kcal",
+          "ingredients": "Beef patty, lettuce, tomato, onion, cheddar cheese, burger bun, signature sauce",
+          "notes": "Can be made gluten-free with a lettuce wrap.",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$9.99"
+            },
+            {
+              "option": "Double",
+              "price": "$12.99"
+            }
+          ],
+          "labels": ["label1"],
+          "addition": [
+            {
+              "name": "One ",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "02.webp",
+          "name": "BBQ Blaze",
+          "description": "A smoky beef patty topped with crispy bacon, cheddar cheese, BBQ sauce, and fried onion rings.",
+          "ingredients": "Beef patty, crispy bacon, cheddar cheese, BBQ sauce, fried onion rings, burger bun",
+          "notes": "Perfect for BBQ lovers!",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$11.49"
+            },
+            {
+              "option": "Double",
+              "price": "$14.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "10.webp",
+          "name": "Classic Cheese",
+          "description": "Single 100 percent fresh beef patty, American cheese, lettuce, tomato, pickles, and special house sauce in brioche bun.",
+          "ingredients": "Beef patty, crispy bacon, cheddar cheese, BBQ sauce, fried onion rings, burger bun",
+          "notes": "The classic",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$9.49"
+            },
+            {
+              "option": "Double",
+              "price": "$10.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "11.webp",
+          "name": "Double Cheese",
+          "description": "2 smash patties, American cheese, lettuce, tomato, onions, grilled mushrooms, and special prison sauce in brioche bun.",
+          "ingredients": "Beef patty, crispy bacon, cheddar cheese, BBQ sauce, fried onion rings, burger bun",
+          "notes": "The classic",
+          "prices": [
+            {
+              "option": "Single",
+              "price": "$9.49"
+            },
+            {
+              "option": "Double",
+              "price": "$10.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Chicken Burgers",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M40 39.9999L49.0107 30.9893C49.536 30.4641 50.1596 30.0475 50.846 29.7634C51.5323 29.4793 52.2679 29.3331 53.0107 29.3333H53.3333C54.7478 29.3333 56.1044 29.8952 57.1046 30.8954C58.1048 31.8955 58.6667 33.2521 58.6667 34.6666C58.6667 36.0811 58.1048 37.4376 57.1046 38.4378C56.1044 39.438 54.7478 39.9999 53.3333 39.9999H10.6667C9.25219 39.9999 7.89563 39.438 6.89544 38.4378C5.89525 37.4376 5.33334 36.0811 5.33334 34.6666C5.33334 33.2521 5.89525 31.8955 6.89544 30.8954C7.89563 29.8952 9.25219 29.3333 10.6667 29.3333H22.7067C26.9494 29.3335 31.0184 31.0188 34.0187 34.0186L40 39.9999ZM8.00001 39.9999H56V45.3333C56 47.455 55.1572 49.4898 53.6569 50.9901C52.1566 52.4904 50.1217 53.3333 48 53.3333H16C13.8783 53.3333 11.8434 52.4904 10.3432 50.9901C8.84286 49.4898 8.00001 47.455 8.00001 45.3333V39.9999Z' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><path d='M40.0027 18.6667H40M32.0027 21.3334H32M32 10.6667C19.672 10.6667 9.51468 15.3494 8.15468 26.6667C7.97868 28.1334 9.19468 29.3334 10.6667 29.3334H53.3334C54.8054 29.3334 56.0213 28.1334 55.8453 26.6667C54.4853 15.3494 44.328 10.6667 32 10.6667Z' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Crispy or grilled chicken fillets served with fresh toppings and our signature sauces.",
+      "items": [
+        {
+          "image": true,
+          "imageUrl": "03.webp",
+          "name": "Crispy Chick",
+          "description": "Crispy fried chicken breast topped with lettuce, tomato, pickles, and mayo.",
+          "ingredients": "Fried chicken breast, lettuce, tomato, pickles, mayo, brioche bun",
+          "notes": "Best served with our Cajun fries.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$8.99"
+            },
+            {
+              "option": "Spicy",
+              "price": "$9.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "04.webp",
+          "name": "Grilled Heat",
+          "description": "Juicy grilled chicken breast with a spicy sriracha mayo, lettuce, and avocado.",
+          "ingredients": "Grilled chicken breast, sriracha mayo, lettuce, avocado, wheat bun",
+          "notes": "A healthier option with a kick.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$9.99"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Shakes",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M44 62H20L16 28H48L44 62Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M12 28H52' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M16 28C16 19.2 23.2 12 32 12C40.8 12 48 19.2 48 28' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M26 2H28.8C30.6 2 32 3.4 32 5.2V16' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M32 48C36.4183 48 40 45.3137 40 42C40 38.6863 36.4183 36 32 36C27.5817 36 24 38.6863 24 42C24 45.3137 27.5817 48 32 48Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Rich, creamy milkshakes made with premium ice cream and blended to perfection.",
+      "items": [
+        {
+          "image": true,
+          "imageUrl": "07.png",
+          "name": "Classic Vanilla",
+          "description": "Smooth and creamy vanilla milkshake made with real ice cream.",
+          "ingredients": "Vanilla ice cream, milk, whipped cream",
+          "notes": "Add chocolate syrup for an extra $0.50.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$4.99"
+            },
+            {
+              "option": "Large",
+              "price": "$5.99"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "07.png",
+          "name": "Chocolate Overload",
+          "description": "Indulgent chocolate milkshake with chocolate chips and chocolate syrup.",
+          "ingredients": "Chocolate ice cream, milk, chocolate syrup, whipped cream, chocolate chips",
+          "notes": "A chocoholic's dream.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$5.49"
+            },
+            {
+              "option": "Large",
+              "price": "$6.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Sides",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 65' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M9.00414 25.004L14.9903 59.52C26.2217 62.7587 37.2378 62.894 48.0138 59.52L54 25.004L47.397 25.6963C47.397 25.6963 45.2318 34.7202 31.5041 34.7202C17.7764 34.7202 15.2967 25.4973 15.2967 25.4973L9 25L9.00414 25.004Z' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M13.9334 24.2722L13 14.5926L20.6907 14L23 32' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M17.6862 14.081L17 3.40412L26.5411 3L29 34' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M34 34L35.3374 5H45V12.0732' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M39 33L41.9612 12L50 12.4063L48.969 24.9644' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/><path d='M27 10H35' stroke='currentColor' stroke-width='4' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "description": "Crispy fries, onion rings, and more to complement your meal.",
+      "items": [
+        {
+          "image": true,
+          "imageUrl": "05.webp",
+          "name": "Classic Fries",
+          "description": "Golden and crispy french fries, lightly salted.",
+          "ingredients": "Potatoes, salt, vegetable oil",
+          "notes": "Available with cheese sauce for $1.00 extra.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$3.49"
+            },
+            {
+              "option": "Large",
+              "price": "$4.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "06.webp",
+          "name": "Crispy Onion Rings",
+          "description": "Crunchy battered onion rings served with house-made ranch dipping sauce.",
+          "ingredients": "Onion rings, batter, vegetable oil, ranch sauce",
+          "notes": "Great for sharing.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$4.99"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Soft Drinks",
+      "icon": "<svg width='24' height='24' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'><g clip-path='url(#clip0_76_13)'><path d='M34.5 26.5H17.2317M17.2317 26.5L19.5 57.5V62.5H44.5V57.5L47.5 16.5H16.5L17.2317 26.5ZM38.5 49.5L42 1.5' stroke='currentColor' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/><circle cx='25.5' cy='34.5' r='1.5' fill='currentColor'/><circle cx='30.5' cy='42.5' r='1.5' fill='currentColor'/><circle cx='26.5' cy='49.5' r='1.5' fill='currentColor'/></g><defs><clipPath id='clip0_76_13'><rect width='64' height='64' fill='white'/></clipPath></defs></svg>",
+      "description": "A selection of refreshing cold beverages.",
+      "items": [
+        {
+          "image": true,
+          "imageUrl": "08.jpg",
+          "name": "Cola",
+          "description": "Ice-cold cola served in a cup with ice.",
+          "ingredients": "Cola, ice",
+          "notes": "Available as diet or regular.",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$1.99"
+            },
+            {
+              "option": "Large",
+              "price": "$2.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "09.jpg",
+          "name": "Fresh Lemonade",
+          "description": "Refreshing homemade lemonade with a hint of mint.",
+          "ingredients": "Lemon juice, sugar, water, mint",
+          "notes": "Perfect for a hot day.",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$2.99"
+            },
+            {
+              "option": "Large",
+              "price": "$3.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "root-beer.jpg",
+          "name": "Root Beer",
+          "description": "Classic root beer served ice-cold, perfect for a refreshing treat.",
+          "ingredients": "Root beer, ice",
+          "notes": "Can be served with a scoop of vanilla ice cream for an extra $1.50.",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$2.29"
+            },
+            {
+              "option": "Large",
+              "price": "$2.79"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "iced-tea.jpg",
+          "name": "Iced Tea",
+          "description": "Chilled black tea served with a lemon wedge and a hint of sweetness.",
+          "ingredients": "Black tea, sugar, lemon, ice",
+          "notes": "Available sweetened or unsweetened.",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$1.99"
+            },
+            {
+              "option": "Large",
+              "price": "$2.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "orange-soda.jpg",
+          "name": "Orange Soda",
+          "description": "Bright and fizzy orange soda for a zesty refreshment.",
+          "ingredients": "Orange soda, ice",
+          "notes": "A citrusy option for soda lovers.",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$1.99"
+            },
+            {
+              "option": "Large",
+              "price": "$2.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "sparkling-water.jpg",
+          "name": "Sparkling Water",
+          "description": "Crisp and clean sparkling water served with a slice of lime.",
+          "ingredients": "Sparkling water, lime, ice",
+          "notes": "A light and refreshing non-sugary option.",
+          "prices": [
+            {
+              "option": "Regular",
+              "price": "$2.99"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        },
+        {
+          "image": true,
+          "imageUrl": "tropical.jpg",
+          "name": "Tropical Fruit Punch",
+          "description": "A mix of tropical fruit juices, bursting with vibrant flavors.",
+          "ingredients": "Pineapple juice, orange juice, mango, grenadine, ice",
+          "notes": "A fruity escape in every sip.",
+          "prices": [
+            {
+              "option": "Small",
+              "price": "$2.99"
+            },
+            {
+              "option": "Large",
+              "price": "$3.49"
+            }
+          ],
+          "labels": ["label1", "label2", "label3"],
+          "addition": [
+            {
+              "name": "name",
+              "price": "price"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
